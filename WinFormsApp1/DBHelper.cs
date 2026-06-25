@@ -9,7 +9,7 @@ namespace WinFormsApp1
 {
     public class DBHelper
     {
-        static string connectionString = "Host=localhost;Port=5432;Database=game_store;Username=padmin;Password=1";
+        static string connectionString = "Host=localhost;Port=5432;Database=game_store;Username=postgres;Password=1";
         public static string[][] Start(string sotrtType)
         {
             List<string[]> main = new List<string[]>();
