@@ -60,11 +60,11 @@ namespace WinFormsApp1
             }
             try
             {
-                pbPhoto.Image = Image.FromFile($"C:\\Users\\daniil\\Downloads\\{photo}");
+                pbPhoto.Image = Image.FromFile($"%userprofile%\\Downloads\\{photo}");
             }
             catch (Exception ex)
             {
-                pbPhoto.Image = Image.FromFile("C:\\Users\\daniil\\Downloads\\images.png");
+                pbPhoto.Image = Image.FromFile("%userprofile%\\Downloads\\images.png");
             }
         }
     }
