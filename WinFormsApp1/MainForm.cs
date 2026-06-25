@@ -17,7 +17,7 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             Main("id");
-            pictureBox1.Image = Image.FromFile("C:\\Users\\daniil\\Downloads\\images.png");
+            pictureBox1.Image = Image.FromFile("%userprofile%\\Downloads\\images.png");
             if (role == "Администратор")
             {
                 lblName.Text = name;
